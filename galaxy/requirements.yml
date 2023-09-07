@@ -1,0 +1,4 @@
+---
+- src: arillso.sudoers
+  version: 2.3.0
+  name: sudoers
