@@ -1,4 +1,10 @@
 ---
-- src: arillso.sudoers
-  version: 2.3.0
-  name: sudoers
+roles:
+  - name: sudoers
+    src: arillso.sudoers
+    version: 2.3.0
+
+collections:
+  - name: https://github.com/kubernetes-sigs/kubespray
+    type: git
+    version: v2.23.0
