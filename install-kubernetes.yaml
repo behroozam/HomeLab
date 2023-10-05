@@ -1,0 +1,5 @@
+- name: Install Kubernetes
+  ansible.builtin.import_playbook: kubernetes_sigs.kubespray.cluster
+  vars:
+    minimal_master_memory_mb: 500
+    minimal_node_memory_mb: 500
