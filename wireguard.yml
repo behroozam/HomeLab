@@ -5,7 +5,5 @@
         value: '1'
         sysctl_set: true
   roles:
-    # - role: harden_linux
-    #   tags: role-harden-linux
     - role: ansible_role_wireguard
       tags: role-wireguard
