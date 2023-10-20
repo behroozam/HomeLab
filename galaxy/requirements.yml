@@ -3,7 +3,9 @@ roles:
   - name: sudoers
     src: arillso.sudoers
     version: 2.3.0
-
+  - name: ansible_role_wireguard
+    src: githubixx.ansible_role_wireguard
+    version: 14.0.0
 collections:
   - name: https://github.com/kubernetes-sigs/kubespray
     type: git
