@@ -1,0 +1,4 @@
+[submodule "k3s-ansible"]
+	path = k3s-ansible
+	url = https://github.com/behroozam/k3s-ansible.git
+	branch = wireguard-cluster
