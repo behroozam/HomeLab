@@ -1,0 +1,9 @@
+wireguard_address: "172.16.74.2/24"
+wireguard_port: 51820
+wireguard_endpoint: "192.168.1.51"
+wireguard_unmanaged_peers:
+  homelab-local-router:
+    public_key: SEXW7lrkf/H2RnLDB38RWz0l8GFFCNrh0DwPT1JY9GY=
+    allowed_ips: 172.16.74.5/32
+    endpoint: 192.168.1.53:51820
+    persistent_keepalive: 30
